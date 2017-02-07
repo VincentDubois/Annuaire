@@ -17,9 +17,9 @@
         </activity>
         <activity android:name=".PersonneActivity" />
         <activity android:name=".SearchActivity"></activity>
-
         <activity android:name=".FavorisActivity" />
         <activity android:name=".PersonneFavActivity"></activity>
+        <activity android:name=".LiensActivity"></activity>
     </application>
 
 </manifest>
