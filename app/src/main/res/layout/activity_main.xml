@@ -29,4 +29,7 @@
         android:layout_below="@+id/textView"
         tools:listitem="@layout/personne_element"
         />
+
+    <include layout="@layout/barre_boutons"/>
+
 </RelativeLayout>
