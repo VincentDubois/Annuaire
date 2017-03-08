@@ -10,7 +10,8 @@
         app:srcCompat="@mipmap/favoriteicon"
         android:id="@+id/imageButton6"
         android:scaleType="fitCenter"
-        android:layout_weight="1" />
+        android:layout_weight="1"
+        android:onClick="onClickFav" />
 
     <ImageButton
         android:layout_width="0dp"
@@ -18,7 +19,8 @@
         app:srcCompat="@mipmap/contact"
         android:id="@+id/imageButton7"
         android:layout_weight="1"
-        android:scaleType="fitCenter" />
+        android:scaleType="fitCenter"
+        android:onClick="onClickMain" />
 
     <ImageButton
         android:layout_width="0dp"
@@ -26,7 +28,8 @@
         app:srcCompat="@mipmap/listicon"
         android:id="@+id/imageButton8"
         android:layout_weight="1"
-        android:scaleType="fitCenter" />
+        android:scaleType="fitCenter"
+        android:onClick="onClickTag" />
 
     <ImageButton
         android:layout_width="0dp"
@@ -34,5 +37,6 @@
         app:srcCompat="@mipmap/siteicon"
         android:id="@+id/imageButton9"
         android:layout_weight="1"
-        android:scaleType="fitCenter" />
+        android:scaleType="fitCenter"
+        android:onClick="onClickLi" />
 </LinearLayout>

@@ -16,10 +16,11 @@
             </intent-filter>
         </activity>
         <activity android:name=".PersonneActivity" />
-        <activity android:name=".SearchActivity"></activity>
+        <activity android:name=".SearchActivity" />
         <activity android:name=".FavorisActivity" />
-        <activity android:name=".PersonneFavActivity"></activity>
-        <activity android:name=".LiensActivity"></activity>
+        <activity android:name=".PersonneFavActivity" />
+        <activity android:name=".LiensActivity" />
+        <activity android:name=".TagActivity"></activity>
     </application>
 
 </manifest>

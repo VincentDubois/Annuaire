@@ -51,4 +51,25 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         startActivity(intent); // lancement de la nouvelle activité
 
     }
+
+    public  void onClickFav(View view){
+        Intent intent = new Intent(this, FavorisActivity.class); // On indique l'activité à lancer
+        startActivity(intent); // lancement de la nouvelle activité
+    }
+
+    public  void onClickMain(View view){
+        Intent intent = new Intent(this, MainActivity.class); // On indique l'activité à lancer
+        startActivity(intent); // lancement de la nouvelle activité
+    }
+
+    public  void onClickLi(View view){
+        Intent intent = new Intent(this, LiensActivity.class); // On indique l'activité à lancer
+        startActivity(intent); // lancement de la nouvelle activité
+    }
+
+    public  void onClickTag(View view){
+        Intent intent = new Intent(this, TagActivity.class); // On indique l'activité à lancer
+        startActivity(intent); // lancement de la nouvelle activité
+    }
 }
+
