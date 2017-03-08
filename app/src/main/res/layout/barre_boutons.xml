@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="80dp">
+    android:layout_height="80dp"
+    android:background="@color/colorDark">
 
     <ImageButton
         android:layout_width="0dp"
@@ -11,32 +13,40 @@
         android:id="@+id/imageButton6"
         android:scaleType="fitCenter"
         android:layout_weight="1"
-        android:onClick="onClickFav" />
+        android:onClick="onClickFav"
+        android:background="@color/colorDark"
+        android:layout_margin="5dp" />
 
     <ImageButton
         android:layout_width="0dp"
-        android:layout_height="80dp"
+        android:layout_height="wrap_content"
         app:srcCompat="@mipmap/contact"
         android:id="@+id/imageButton7"
         android:layout_weight="1"
         android:scaleType="fitCenter"
-        android:onClick="onClickMain" />
+        android:onClick="onClickMain"
+        android:background="@color/colorDark"
+        android:layout_margin="5dp" />
 
     <ImageButton
         android:layout_width="0dp"
-        android:layout_height="80dp"
+        android:layout_height="wrap_content"
         app:srcCompat="@mipmap/listicon"
         android:id="@+id/imageButton8"
         android:layout_weight="1"
         android:scaleType="fitCenter"
-        android:onClick="onClickTag" />
+        android:onClick="onClickTag"
+        android:background="@color/colorDark"
+        android:layout_margin="5dp" />
 
     <ImageButton
         android:layout_width="0dp"
-        android:layout_height="80dp"
+        android:layout_height="wrap_content"
         app:srcCompat="@mipmap/siteicon"
         android:id="@+id/imageButton9"
         android:layout_weight="1"
         android:scaleType="fitCenter"
-        android:onClick="onClickLi" />
+        android:onClick="onClickLi"
+        android:background="@color/colorDark"
+        android:layout_margin="5dp" />
 </LinearLayout>
