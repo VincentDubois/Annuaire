@@ -11,19 +11,22 @@
     android:background="#333333"
     android:layout_height="60dp">
 
-    <SearchView
+    <EditText
+        android:inputType="textPersonName"
         android:layout_height="match_parent"
         android:background="#ffffff"
         android:layout_alignParentRight="true"
         android:layout_width="200dp"
-        android:layout_margin="15dp">
+        android:layout_margin="15dp"
+        android:clickable="true"
+        android:id="@+id/search">
 
-    </SearchView>
+    </EditText>
 
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_alignParentBottom="true"
-        android:background="#E61471"
+        android:background="@color/colorRose"
         android:layout_height="5dp">
 
     </FrameLayout>

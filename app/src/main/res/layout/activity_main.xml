@@ -9,11 +9,14 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.hexagonalgames.annuaire.MainActivity">
 
+    <include layout="@layout/activity_search"/>
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Enseignants :"
         android:id="@+id/textView"
+        android:paddingTop="100dp"
         android:textAlignment="center" />
 
     <ListView
