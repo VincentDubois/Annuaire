@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Annuaire</string>
+    <string name="title_activity_person">personActivity</string>
 </resources>
