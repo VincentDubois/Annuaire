@@ -25,7 +25,6 @@
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:inputType="text"
                 android:text="Sites"
                 android:ems="10"
                 android:layout_alignParentTop="true"
@@ -47,10 +46,61 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:inputType="text"
-            android:text="Web"
+            android:inputType="textPersonName"
+            android:text="Algo"
             android:ems="10"
-            android:id="@+id/editText2"
+            android:id="@+id/textViewAlgo" />
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="27dp"
+            android:id="@+id/listViewAlgo" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:text="Android"
+            android:ems="10"
+            android:id="@+id/textViewAndroid" />
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:id="@+id/listViewAndroid" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:text="BDD"
+            android:ems="10"
+            android:id="@+id/textViewBDD" />
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="12dp"
+            android:id="@+id/listViewBDD" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:text="GitHub"
+            android:ems="10"
+            android:id="@+id/textViewGitHub" />
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="13dp"
+            android:id="@+id/listViewGitHub" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Html/CSS"
+            android:ems="10"
+            android:id="@+id/textViewHtmlCSS"
             android:layout_below="@+id/editText"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
@@ -58,17 +108,41 @@
 
         <ListView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="0.57"
-            android:id="@+id/listView_web" />
+            android:layout_height="55dp"
+            android:id="@+id/listViewHtmlCSS" />
 
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:inputType="text"
-            android:text="Design"
+            android:inputType="textPersonName"
+            android:text="Java"
             android:ems="10"
-            android:id="@+id/editText3"
+            android:id="@+id/textViewJava" />
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="15dp"
+            android:id="@+id/listViewJava" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:text="Java script"
+            android:ems="10"
+            android:id="@+id/textViewJS" />
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/listViewJS" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PHP"
+            android:ems="10"
+            android:id="@+id/textViewPHP"
             android:layout_above="@+id/editText4"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
@@ -77,16 +151,16 @@
         <ListView
             android:layout_width="match_parent"
             android:layout_height="50dp"
-            android:layout_weight="0.35" />
+            android:layout_weight="0.35"
+            android:id="@+id/listViewPHP" />
 
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:inputType="text"
-            android:text="Audiovisuel"
+            android:text="Réseaux"
             android:ems="10"
-            android:id="@+id/editText4"
-            android:layout_above="@+id/editText5"
+            android:id="@+id/textViewReseaux"
+            android:layout_above="@+id/textViewDivers"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
             />
@@ -94,15 +168,15 @@
         <ListView
             android:layout_width="match_parent"
             android:layout_height="56dp"
-            android:layout_weight="0.26" />
+            android:layout_weight="0.26"
+            android:id="@+id/listViewReseaux" />
 
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:inputType="text"
             android:text="Divers"
             android:ems="10"
-            android:id="@+id/editText5"
+            android:id="@+id/textViewDivers"
             android:layout_alignParentBottom="true"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
@@ -110,7 +184,8 @@
 
         <ListView
             android:layout_width="match_parent"
-            android:layout_height="56dp" />
+            android:layout_height="14dp"
+            android:id="@+id/listViewDivers" />
 
     </LinearLayout>
 
