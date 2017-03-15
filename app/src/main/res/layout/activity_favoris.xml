@@ -26,7 +26,7 @@
         android:layout_alignParentBottom="true"
         android:layout_below="@+id/textView"
         tools:listitem="@layout/personne_fav"
-        android:layout_weight="1.05" />
+        android:layout_weight="1" />
 
     <include layout="@layout/barre_boutons"/>
 
