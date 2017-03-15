@@ -31,6 +31,11 @@ public class DBHelper extends SQLiteAssetHelper {
     // Requètes SQL. Les paramètres sont à remplacer par ?
     private static final String GET_ALL_QUERY = "SELECT _id, nom, prenom, mail FROM personne;";
     private static final String GET_PERSONNE_BY_ID = "SELECT _id, nom, prenom, mail FROM personne WHERE _id=?;";
+    private static final String GET_PERSONNE_BY_FAVORITE = "SELECT _id,nom , prenom FROM personne WHERE favoris = ?;";
+    private static final String GET_WEBSITE_BY_TOPIC = "SELECT web.titre,web.url,matiere.nom from web INNER JOIN correspond ON web._id= correspond._idWeb INNER JOIN matiere ON correspond._idMatiere=matiere._id WHERE matiere._id = ?;";
+    private static final String GET_ALL_BY_ID = "SELECT personne.nom,prenom, mail,matiere.nom FROM personne INNER JOIN enseigne ON personne._id = enseigne._idPersonne INNER JOIN matiere ON enseigne._idMatiere = matiere._id WHERE personne._id = ?;";
+
+
 
 
     // Utilisation d'un singleton pour éviter d'avoir plusieurs instances de cette classe.

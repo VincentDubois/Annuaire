@@ -31,14 +31,14 @@
                     android:text="Nom"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:id="@+id/textView3"
+                    android:id="@+id/textViewNom"
                     android:layout_weight="1" />
 
                 <TextView
                     android:text="Prenom"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:id="@+id/textView2"
+                    android:id="@+id/textViewPrenom"
                     android:layout_weight="1" />
 
                 <ImageButton
@@ -54,7 +54,7 @@
                 android:text="adresse@mail.fr"
                 android:layout_width="match_parent"
                 android:layout_height="31dp"
-                android:id="@+id/textView4" />
+                android:id="@+id/textViewMail" />
         </LinearLayout>
 
     </LinearLayout>
