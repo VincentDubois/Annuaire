@@ -8,9 +8,7 @@
     tools:context="com.hexagonalgames.annuaire.FavorisActivity"
     android:weightSum="1">
 
-    <include layout="@layout/activity_search"
-        android:layout_weight="0.46"
-        android:layout_width="366dp" />
+    <include layout="@layout/activity_search" />
 
     <TextView
         android:layout_width="match_parent"
