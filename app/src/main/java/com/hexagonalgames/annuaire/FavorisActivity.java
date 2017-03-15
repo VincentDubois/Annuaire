@@ -1,9 +1,11 @@
 package com.hexagonalgames.annuaire;
 
+import android.content.Intent;
 import android.database.Cursor;
 import android.support.v4.widget.SimpleCursorAdapter;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.ListView;
 
 public class FavorisActivity extends AppCompatActivity {
@@ -33,5 +35,25 @@ public class FavorisActivity extends AppCompatActivity {
         ListView listView = (ListView) findViewById(R.id.listView);
         listView.setAdapter(adapter); // on définit le contenu
 //        listView.setOnItemClickListener(this); // on écoute les clics sur les lignes
+    }
+
+    public  void onClickFav(View view){
+        Intent intent = new Intent(this, FavorisActivity.class); // On indique l'activité à lancer
+        startActivity(intent); // lancement de la nouvelle activité
+    }
+
+    public  void onClickMain(View view){
+        Intent intent = new Intent(this, MainActivity.class); // On indique l'activité à lancer
+        startActivity(intent); // lancement de la nouvelle activité
+    }
+
+    public  void onClickLi(View view){
+        Intent intent = new Intent(this, LiensActivity.class); // On indique l'activité à lancer
+        startActivity(intent); // lancement de la nouvelle activité
+    }
+
+    public  void onClickTag(View view){
+        Intent intent = new Intent(this, TagActivity.class); // On indique l'activité à lancer
+        startActivity(intent); // lancement de la nouvelle activité
     }
 }
