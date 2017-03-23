@@ -18,15 +18,15 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         if(true){
-            setContentView(R.layout.activity_main);
+            setContentView(R.layout.activity_login);
         }
-        setContentView(R.layout.activity_login);
+        setContentView(R.layout.activity_main);
 
         // On exécute la requète sur la base
         Cursor c = DBHelper.getDBHelper(this).getAll();
 
         // On créer un adaptateur, chargé de convertir les lignes du résultats en vues
-        String[] columnName = {"nom","prenom","mail"}; // les noms des champs utilisés
+        /*String[] columnName = {"nom","prenom","mail"}; // les noms des champs utilisés
         int[] columnId = {R.id.textViewNom,R.id.textViewPrenom,R.id.textViewMail};
            // les id des vues à utiliser, dans le même ordre que les champs
         adapter = new SimpleCursorAdapter(this,
@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         // On récupère le listView à configurer
         ListView listView = (ListView) findViewById(R.id.listView);
         listView.setAdapter(adapter); // on définit le contenu
-        listView.setOnItemClickListener(this); // on écoute les clics sur les lignes
+        listView.setOnItemClickListener(this); // on écoute les clics sur les lignes*/
     }
 
     @Override
