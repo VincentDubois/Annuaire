@@ -22,15 +22,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
-            <EditText
+            <TextView
+                android:text="Sites"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Sites"
-                android:ems="10"
-                android:layout_alignParentTop="true"
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentStart="true"
-                android:id="@+id/editText"
+                android:id="@+id/textView4"
                 android:layout_weight="1" />
 
             <ImageView
@@ -41,150 +37,119 @@
                 android:layout_weight="1"
                 android:adjustViewBounds="false"
                 android:cropToPadding="false" />
+
         </LinearLayout>
 
-        <EditText
+        <TextView
+            android:text="Algo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:inputType="textPersonName"
-            android:text="Algo"
-            android:ems="10"
             android:id="@+id/textViewAlgo" />
 
         <ListView
             android:layout_width="match_parent"
-            android:layout_height="27dp"
+            android:layout_height="wrap_content"
             android:id="@+id/listViewAlgo" />
 
-        <EditText
+        <TextView
+            android:text="Android"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:inputType="textPersonName"
-            android:text="Android"
-            android:ems="10"
             android:id="@+id/textViewAndroid" />
 
         <ListView
             android:layout_width="match_parent"
-            android:layout_height="20dp"
+            android:layout_height="wrap_content"
             android:id="@+id/listViewAndroid" />
 
-        <EditText
+        <TextView
+            android:text="BDD"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:inputType="textPersonName"
-            android:text="BDD"
-            android:ems="10"
             android:id="@+id/textViewBDD" />
 
         <ListView
             android:layout_width="match_parent"
-            android:layout_height="12dp"
+            android:layout_height="wrap_content"
             android:id="@+id/listViewBDD" />
 
-        <EditText
+        <TextView
+            android:text="GitHub"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:inputType="textPersonName"
-            android:text="GitHub"
-            android:ems="10"
             android:id="@+id/textViewGitHub" />
 
         <ListView
             android:layout_width="match_parent"
-            android:layout_height="13dp"
+            android:layout_height="wrap_content"
             android:id="@+id/listViewGitHub" />
 
-        <EditText
+        <TextView
+            android:text="Html/CSS"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Html/CSS"
-            android:ems="10"
-            android:id="@+id/textViewHtmlCSS"
-            android:layout_below="@+id/editText"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
-            />
+            android:id="@+id/textViewHtmlCSS" />
 
         <ListView
             android:layout_width="match_parent"
-            android:layout_height="55dp"
+            android:layout_height="wrap_content"
             android:id="@+id/listViewHtmlCSS" />
 
-        <EditText
+        <TextView
+            android:text="Java"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:inputType="textPersonName"
-            android:text="Java"
-            android:ems="10"
             android:id="@+id/textViewJava" />
 
         <ListView
             android:layout_width="match_parent"
-            android:layout_height="15dp"
+            android:layout_height="wrap_content"
             android:id="@+id/listViewJava" />
 
-        <EditText
+        <TextView
+            android:text="Java Script"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:inputType="textPersonName"
-            android:text="Java script"
-            android:ems="10"
             android:id="@+id/textViewJS" />
 
         <ListView
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:id="@+id/listViewJS" />
 
-        <EditText
+        <TextView
+            android:text="PHP"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="PHP"
-            android:ems="10"
-            android:id="@+id/textViewPHP"
-            android:layout_above="@+id/editText4"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
-            />
+            android:id="@+id/textViewPHP" />
 
         <ListView
             android:layout_width="match_parent"
-            android:layout_height="50dp"
+            android:layout_height="wrap_content"
             android:layout_weight="0.35"
             android:id="@+id/listViewPHP" />
 
-        <EditText
+        <TextView
+            android:text="Reseaux"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Réseaux"
-            android:ems="10"
-            android:id="@+id/textViewReseaux"
-            android:layout_above="@+id/textViewDivers"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
-            />
+            android:id="@+id/textViewReseaux" />
 
         <ListView
             android:layout_width="match_parent"
-            android:layout_height="56dp"
+            android:layout_height="wrap_content"
             android:layout_weight="0.26"
             android:id="@+id/listViewReseaux" />
 
-        <EditText
+        <TextView
+            android:text="Divers"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Divers"
-            android:ems="10"
-            android:id="@+id/textViewDivers"
-            android:layout_alignParentBottom="true"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
-            />
+            android:id="@+id/textViewDivers" />
 
         <ListView
             android:layout_width="match_parent"
-            android:layout_height="14dp"
+            android:layout_height="wrap_content"
             android:id="@+id/listViewDivers" />
 
     </LinearLayout>
