@@ -30,9 +30,6 @@
         tools:listitem="@layout/personne_element"
         />
 
-    <include layout="@layout/barre_boutons"
-        android:layout_below="@+id/include"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+    <include layout="@layout/barre_boutons"/>
 
 </RelativeLayout>
