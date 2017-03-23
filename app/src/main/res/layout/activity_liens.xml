@@ -27,7 +27,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/textView4"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:textSize="24sp" />
 
             <ImageView
                 android:layout_width="298dp"
@@ -43,7 +44,8 @@
             android:text="Algo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/textViewAlgo" />
+            android:id="@+id/textViewAlgo"
+            android:textSize="18sp" />
 
         <ListView
             android:layout_width="match_parent"
@@ -54,7 +56,8 @@
             android:text="Android"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/textViewAndroid" />
+            android:id="@+id/textViewAndroid"
+            android:textSize="18sp" />
 
         <ListView
             android:layout_width="match_parent"
@@ -65,7 +68,8 @@
             android:text="BDD"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/textViewBDD" />
+            android:id="@+id/textViewBDD"
+            android:textSize="18sp" />
 
         <ListView
             android:layout_width="match_parent"
@@ -76,7 +80,8 @@
             android:text="GitHub"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/textViewGitHub" />
+            android:id="@+id/textViewGitHub"
+            android:textSize="18sp" />
 
         <ListView
             android:layout_width="match_parent"
@@ -87,7 +92,8 @@
             android:text="Html/CSS"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/textViewHtmlCSS" />
+            android:id="@+id/textViewHtmlCSS"
+            android:textSize="18sp" />
 
         <ListView
             android:layout_width="match_parent"
@@ -98,7 +104,8 @@
             android:text="Java"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/textViewJava" />
+            android:id="@+id/textViewJava"
+            android:textSize="18sp" />
 
         <ListView
             android:layout_width="match_parent"
@@ -109,7 +116,8 @@
             android:text="Java Script"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/textViewJS" />
+            android:id="@+id/textViewJS"
+            android:textSize="18sp" />
 
         <ListView
             android:layout_width="match_parent"
@@ -120,7 +128,8 @@
             android:text="PHP"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/textViewPHP" />
+            android:id="@+id/textViewPHP"
+            android:textSize="18sp" />
 
         <ListView
             android:layout_width="match_parent"
@@ -132,7 +141,8 @@
             android:text="Reseaux"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/textViewReseaux" />
+            android:id="@+id/textViewReseaux"
+            android:textSize="18sp" />
 
         <ListView
             android:layout_width="match_parent"
@@ -144,7 +154,8 @@
             android:text="Divers"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/textViewDivers" />
+            android:id="@+id/textViewDivers"
+            android:textSize="18sp" />
 
         <ListView
             android:layout_width="match_parent"
