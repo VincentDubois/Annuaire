@@ -24,9 +24,6 @@
 
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_alignParentBottom="true"
-        android:layout_below="@+id/textView"
         tools:listitem="@layout/personne_element"
         />
 
@@ -34,5 +31,9 @@
         android:layout_below="@+id/include"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
+        android:layout_below="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="33dp" />
 
 </RelativeLayout>
