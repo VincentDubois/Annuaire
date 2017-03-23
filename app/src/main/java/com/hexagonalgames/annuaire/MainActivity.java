@@ -17,7 +17,10 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        if(true){
+            setContentView(R.layout.activity_main);
+        }
+        setContentView(R.layout.activity_login);
 
         // On exécute la requète sur la base
         Cursor c = DBHelper.getDBHelper(this).getAll();
